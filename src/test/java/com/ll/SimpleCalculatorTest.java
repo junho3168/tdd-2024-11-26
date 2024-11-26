@@ -9,7 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class SimpleCalculatorTest {
     @Test
     @DisplayName("1 + 2 = 3")
-        public void testPlus()SimpleCalculator simpleCalculator = new SimpleCalculator();
+        public void testPlus(){
+            SimpleCalculator simpleCalculator = new SimpleCalculator();
             int rs = simpleCalculator.plus(1,2);
 
             assertEquals(3, rs);
